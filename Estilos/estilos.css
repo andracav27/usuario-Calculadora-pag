@@ -1,0 +1,52 @@
+
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing:border-box;
+    font-family: sans-serif;
+
+}
+body {
+    min-height: 100vh;
+    background-color:plum;
+    display: grid;
+    place-items: center;
+
+}
+#boton{
+    
+    background-color:lightcoral;
+    color:black;
+    border-style: inherit;
+    padding: .3rem;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem ;
+    cursor: pointer;
+    
+}
+#valor1{
+    background-color:antiquewhite;
+    color:black;
+    border-style: inherit;
+    padding: .3rem;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem ;
+    cursor: pointer;
+    
+}
+#valor2{
+    background-color:antiquewhite;
+    color:black;
+    border-style: inherit;
+    padding: .3rem;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem ;
+    cursor: pointer;
+    
+}

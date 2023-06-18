@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="Estilos/estilos.css" rel="stylesheet" media="screen" type="text/css"/>
+</head>
+<body>
+    <form id="formulario" name="">
+        <label> Número 1: </label>
+        <input type="number" name="" id="valor1"
+        autofocus  placeholder  ="Escribe un número">
+        
+<br>
+<br>
+<label>Número 2: </label> 
+<input type="number" name="" id="valor2"
+ placeholder="Escribe un número">
+ <br>
+ <br>
+ <button type="button" id="boton" onclick="sumar();">Sumar</button>
+ <button type="button" id="boton" onclick="restar();">Restar</button>
+ <button type="button" id="boton" onclick="multiplicar();">Multiplicar</button>
+ <button type="button" id="boton" onclick="dividir();">Dividir</button>
+<h3> 
+ <p>El resultado es: <span id="el-resultado"></span></p>
+</h3>
+<br>
+<button id="boton" onclick="limpiar();">Limpiar campos</button>
+    </form>
+
+    
+    <script src="funcion/funcion.js"></script>
+</body>
+</html>
